@@ -1,0 +1,49 @@
+.header {
+    padding: 20px; 
+    text-align: center; 
+    background:rgb(182, 106, 112); 
+    color: black; 
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .logo{
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+
+.container {
+    padding: 0 16px;
+    height: 180px;
+    background-color: rgb(235, 233, 241);
+  }
+  
+.color{
+    padding: 20px;
+    margin: 10px;
+}
+
+.date{
+    padding: 20px;
+    margin: 10px;
+}
+
+.about{
+    text-align: center;
+}

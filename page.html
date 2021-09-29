@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>STP</title>
+<link rel="stylesheet" href="STP_Style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="stp logo.jpg" alt="logo" class = "logo" >
+    <h1>STP</h1>
+    <h3>Steps Towards Progress</h3>
+    
+  </div>
+  <div>
+    <h2 style="text-align:center">About us</h2>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          
+          <div class="container">
+            <h3>Overview</h3>
+            <p>STP was founded in 2006 at Cairo university; 
+              The purpose of STP is to strengthen the leadership, skills, 
+              effectiveness and efficiency of involved people; enabling them to 
+              further enrich the quality of the community and their personal 
+              life.</p>
+            
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          
+          <div class="container">
+            <h2>Vision</h2>
+            <p>To be a Leading organization working on developing
+              youth who will lead positive changes.</p>
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="column">
+        <div class="card">
+          
+          <div class="container">
+            <h2>Mission</h2>
+            <p>To develop youth in various fields personally 
+              and technically through academic programs, projects, and events in a 
+              values oriented system, to take our part in providing a generation 
+              capable of playing its roles effictively towards itself, community 
+              and country.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <div class = color>
+    <form name="colorForm" onsubmit="return changeColor()">
+      Desired font color:<br> <input type="text" id="clr">
+      <button type="button" id="colorBtn" onclick="changeColor()">Change color</button>
+    </form> 
+  </div>
+
+  <div class = "date">
+    <form name="timerForm" onsubmit="return setTimer()" id="form">
+      Start date:<br> <input type="date" id="start" step="1"><br>
+      End date:<br> <input type="date" id="end">
+      <button type="button" id="timer" onclick="setTimer()">Set timer</button>
+    </form>
+    <p id="demo"></p>
+  </div>
+
+
+
+<script src = "stp functionality.js"></script>
+
+</body>
+</html>
